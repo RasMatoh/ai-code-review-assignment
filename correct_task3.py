@@ -2,7 +2,7 @@ def average_valid_measurements(values):
     total = 0.0
     count = 0
 
-    for value in values:
+    for v in values:
         if v is None:
             continue
         try:
